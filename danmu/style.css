@@ -1,16 +1,56 @@
+/**弹幕框**/
 .box {
   margin: auto;
   border-style: solid;
   border-width: 2px;
   width: 90%;
-  height: 100px;
+  height: 480px;
   
 }
-.absolute-center {
+
+/**弹幕文字样式关键**/
+.absolute {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  }
+  height:20px;
+}
 
+/**输入区**/
+.input-area{
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  right: 0;
+  left: 0;
+}
+
+/**输入框**/
+#input-text {
+  padding: 10px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+/**提交按钮**/
+.btn-emit {
+    color: green;
+    border-color: green;
+}
+
+/**清屏按钮**/
+.btn-clear {
+    color: orange;
+    border-color: orange;
+}
+
+
+.btn-emit, .btn-clear {
+    height: 40px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
