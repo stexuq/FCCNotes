@@ -1,0 +1,32 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--fontawesome-->
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- <script> 
+  $(document).ready(function() {
+    //发射按钮事件
+    $("#emit-btn").click(function() {
+    var text = $("#input-text").val();//获取输入框文字
+    $("#input-text").val('');//清空输入框
+    alert(text);
+  });
+});
+</script> -->
+
+<div class="box" id="canvas" ></div>
+
+
+<div class="row text-center">
+  <br>
+
+  <input type="text" placeholder="说点什么吧" id="input-text"> 
+
+<button class="btn btn-success" type="submit" id="emit-btn"> <i class="fa fa-paper-plane-o"></i>  发射
+</button>
+  
+<button class="btn btn-warning" type="clear" id="clear-btn"> <i class="fa fa-refresh" aria-hidden="true"> </i> 清屏
+</button>
+</div>
