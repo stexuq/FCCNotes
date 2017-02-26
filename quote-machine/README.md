@@ -5,13 +5,17 @@ python -m SimpleHTTPServer 8000
 
 ## 实现一个弹幕墙
 [FreeCodeCamp课程链接](http://freecodecamp.cn/challenges/build-a-random-quote-machine)
-[目标](http://codepen.io/freeCodeCamp/full/bELoPJ)
-**功能**：随机生成一个能产生格言警句的网页，点击刷新按钮后能够获得新一条格言；并且有一个按钮能把格言发送到twitter。
 
-**步骤**：按照结构->样式->功能 进行开发，重点在功能。
+[目标](http://codepen.io/freeCodeCamp/full/bELoPJ)
+
+###功能
+随机生成一个能产生格言警句的网页，点击刷新按钮后能够获得新一条格言；并且有一个按钮能把格言发送到twitter。
+
+###步骤
+按照结构->样式->功能 进行开发，重点在功能。
 
 ### 结构
-一个简单结构，分为格言内容，更新按钮和推特按钮。
+简单结构，分为格言内容，更新按钮和推特按钮。
 
 ### 样式
 简单的样式，在每次刷新格言时，会变换背景颜色、格言字体颜色和按钮颜色。
