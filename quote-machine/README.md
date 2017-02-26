@@ -3,7 +3,7 @@ Run
 python -m SimpleHTTPServer 8000
 ```
 
-## 实现一个弹幕墙
+## 实现一个格言网站并分享到推特
 [FreeCodeCamp课程链接](http://freecodecamp.cn/challenges/build-a-random-quote-machine)
 
 [目标](http://codepen.io/freeCodeCamp/full/bELoPJ)
