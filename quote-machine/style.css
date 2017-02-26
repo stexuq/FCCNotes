@@ -1,0 +1,46 @@
+.box {
+  margin: 10% auto auto auto;
+  border-radius: 5px;
+  width: 490px;
+  position: relative;
+  padding: 40px, 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#quote-text {
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+#text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #66ccff;
+}
+
+.span {
+  color: #66ccff;
+}
+
+#new-quote-btn {
+  float: left;
+  opacity: 0.9;
+  border-radius: 3px;
+  background-color:#66ccff;
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#tweet-quote {
+  float: right;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+

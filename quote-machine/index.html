@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>The HTML5 Herald</title>
+	<meta name="author" content="Qian">
+
+	<link rel="stylesheet" href="style.css">
+	
+	<!--fontawesome-->
+	<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background-color:#66ccff">
+	<script src="quote.js"> </script>
+
+	<div class="box" id="box" >
+		<div id="quote-text">
+			<i class="fa fa-quote-left"> </i>
+			<span id="text"> Love is patient. Love is kind. Love is not envious or boastful or arrogant or rude. </span>
+			<i class="fa fa-quote-right"> </i>
+		</div>
+		<br>
+		<div class="buttons">
+			<button id="new-quote-btn" onclick="getNewQuote()"> new quote
+			</button>
+
+			<!--<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8">
+			</script>-->
+
+			<a class="twitter-share-button" id="tweet-quote"
+			href="https://twitter.com/intent/tweet?text="
+			data-size="large">
+			<span> <i class="fa fa-twitter"></i></span>
+			tweet</a>		
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
