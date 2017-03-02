@@ -14,7 +14,7 @@ var quots = [
     "What is art but a way of seeing? -Saul Bellow",
     "The fairest thing in nature, a flower, still has its roots in earth and manure. -D. H. Lawrence",
     "Why don't you get a haircut? You look like a chrysanthemum. -P. G. Wodehouse"
-];
+]; // more quotes at https://www.brainyquote.com/quotes_of_the_day.html
 
 var newquote = function() {
   var idx = Math.floor(Math.random() * quots.length);

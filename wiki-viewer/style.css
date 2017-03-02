@@ -1,0 +1,72 @@
+.box {
+  margin: auto auto auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 400px;
+  position: relative;
+  padding: 20px;
+  display: table;
+  background-color: #fff;
+  opacity: 0.6;
+  text-align: center;
+}
+
+
+body {
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "微软雅黑", "STHeiti", sans-serif;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "微软雅黑", "STHeiti", sans-serif;
+  color: #efe76e;
+}
+
+#refresh {
+  float: center;
+  opacity: 0.9;
+  border-radius: 3px;
+  background-color:#c28de8;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.input[type=text] {
+    font-size: 1.75em;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 40%;
+}
+
+.search-box {
+  text-align: center;
+  margin: auto auto auto;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#search-text {
+  font-size:1.75em;
+}
+
+.result {
+  margin: auto auto auto;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+a {
+  margin: auto auto auto;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}

@@ -1,0 +1,56 @@
+.box {
+  margin: auto auto auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 400px;
+  position: relative;
+  padding: 20px;
+  display: table;
+  background-color: #fff;
+  opacity: 0.6;
+  text-align: center;
+}
+
+
+body {
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "微软雅黑", "STHeiti", sans-serif;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "微软雅黑", "STHeiti", sans-serif;
+  color: #efe76e;
+}
+
+#quote-text {
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+#text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #66ccff;
+}
+
+#refresh {
+  float: center;
+  opacity: 0.9;
+  border-radius: 3px;
+  background-color:#c28de8;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+#tweet-quote {
+  float: right;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+

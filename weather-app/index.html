@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>The HTML5 Herald</title>
+	<meta name="author" content="Qian">
+
+	
+
+	<!--font-->
+	<!--<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
+	
+	<!--fontawesome-->
+	<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+
+	 <!--Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	 <!--Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-image:url('beautiful_mountain_view-wallpaper-1920x1200.jpg')">
+	<script src="weather.js"> </script>
+	<h1 class="title"> FCC weather app </h1>
+
+	<div class="box" id="box" >
+		<div class="row">
+			<div class="col-md-6"> 
+				<span id="temperature"> 
+					<script>
+					refreshTemperature() 
+					</script>
+				</span> °C
+			</div>
+
+			<div class="col-md-6"> 
+				<button id="refresh" onclick="refreshAll()"> refresh
+				</button>	
+			</div>
+			
+		</div>
+		<div class="row"> 
+			<div class="col-md-6">
+				Mountain View
+			</div>
+			<div class="col-md-6" id="weather-description">
+				<script>
+				refreshWeather();
+				</script>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>
+
+
